@@ -14,6 +14,10 @@ docker run --name tidb -p 4000:4000 -p 10080:10080 pingcap/tidb --path="localhos
 mysql -h 127.0.0.1 -P 4000 -u root -D test
 ```
 
+dns
+```
+https://github.com/coredns/helm
+```
 
 ## good tutorial
 总体流程
@@ -29,6 +33,12 @@ https://docs.pingcap.com/tidb-in-kubernetes/dev/get-started
 一个简单的hello world级别的project
 ```
 https://dev.to/ishankhare07/writing-a-simple-kubernetes-controller-in-go-with-kubebuilder-ib8
+```
+
+## documentation
+k8s官方关于service的教学
+```
+https://kubernetes.io/docs/concepts/services-networking/
 ```
 
 ## b站教学
